@@ -118,7 +118,7 @@
             $('#postingbox').toggle();
         })
 
-        let docs = await getDocs(collection(db, "albums"));
+        let docs = await getDocs(collection(db, "movies"));
         $('#row').empty();
         docs.forEach((doc) => {
             let row = doc.data();
